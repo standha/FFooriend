@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <link href="insert2.css" rel="stylesheet">
+  <title>SCH BLEP Project</title>
+</head>
+
+<body>
+<script type="text/javascript" src="data.js"></script>
+
+<div class = "info">
+  <br>
+  <h1 style="text-align:center;"> BLEP </h1>
+  <h3 style="text-align:center;">압력 * 심박수 데이터</h3>
+</div>
+<div>
+  <div class="s2">
+    <!-- 여기는 압력 데이터 구현 -->
+    <p>평균 압력</p>
+    <progress value="20" max="100"></progress>
+  </div>
+  <div class="s1">
+    <!-- 여기압력 데이터 구현 -->
+    <p>평균 심박수</p>
+    <progress value="20" max="100"></progress>
+  </div>
+</div>
+
+<div>
+  <div class = 'center' style="overflow:scroll; width:350px; height:200px;">
+
+    <h2 style="text-align:center;">압력</h2>
+
+    <form>
+      <!--size 는 웹에 노출되는 항복 갯수-->
+      <select name="pressure" id="pressure" size="3"  style="width:300px;height:100px;">
+        <option vlaue="115hPa">115hPa</option>
+        <option value="110hPa">110hPa</option>
+        <option value="95hPa">95hPa</option>
+        <option value="90hPa" selected>90hPa</option>
+        <option value="85hPa">85hPa</option>
+        <option value="80hPa">80hPa</option>
+      </select>
+    </form>
+  </div>
+</div>
+
+  <div>
+    <div class = 'center2' style="overflow:scroll; width:350px; height:200px;">
+      <h2 style="text-align:center;">심박수</h2>
+      <form>
+        <!--size 는 웹에 노출되는 항복 갯수-->
+        <select name="heart" id="heart" size="3"  style="width:300px;height:100px;">
+          <option vlaue="115bpm">115bpm</option>
+          <option value="110bpm">110bpm</option>
+          <option value="95bpm">95bpm</option>
+          <option value="90bpm" selected>90bpm</option>
+          <option value="85bpm">85bpm</option>
+          <option value="80bpm">80bpm</option>
+        </select>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

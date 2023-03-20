@@ -1,0 +1,45 @@
+ .center{
+        position: absolute;
+        left: 15%;
+        top: 55%;
+        transform: translateX(-50%);
+        transform: translateY(-50%);
+        background-color: #FFDF65;
+        padding: 10px 20px;
+        border:1px solid black;
+      }
+
+      .center2{
+        position: absolute;
+        left: 60%;
+        top: 55%;
+        transform: translateX(-50%);
+        transform: translateY(-50%);
+        background-color: #FFDF65;
+        padding: 10px 20px;
+        border:1px solid black;
+      }
+      .s1{
+        position: absolute;
+        left: 67%;
+        top: 30%;
+        transform: translateX(-50%);
+        transform: translateY(-50%);
+      }
+
+      .s2{
+        position: absolute;
+        left: 22px;
+        top: 30%;
+        transform: translateX(-50%);
+        transform: translateY(-50%);
+      }
+
+     .info{
+        width:1000px;
+        height:170px;
+        background-image:url('images/순천향대학교로고.jpg');
+        background-repeat:no-repeat;
+        background-position: 50% top;
+        opacity: 0.5;
+     }

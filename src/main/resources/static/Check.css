@@ -1,0 +1,46 @@
+.header{
+    width: 980px;
+    margin: auto;
+    height: 100%;
+    font-size: 10px;
+    background: white;
+    border-bottom: 3px solid rgb(31, 0, 206);
+}
+
+.container{
+    background: #00abdf;
+    width:auto;
+    margin: auto;
+    padding: 5px;
+}
+
+.project_name{
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+.inform{
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 10px;
+}
+.check{
+    padding-top: 10px;
+}
+.checking-Box{
+    border-style: inset;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width :220px;
+    left: 100px;
+
+    position: absolute;
+    left:40%;
+    top:60%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+}
